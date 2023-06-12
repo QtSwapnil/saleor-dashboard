@@ -1,5 +1,5 @@
 pipeline {
-    agent {'MVN'}
+    agent any
     triggers {
         pollSCM('* * * * *')
     }
